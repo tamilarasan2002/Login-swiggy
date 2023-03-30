@@ -1,0 +1,204 @@
+ html{
+	font-size: 15px;
+ } 
+  *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+	
+}
+.nav-home{
+	background-image:url("..//img/back-home.jpg") ;
+	background-attachment: fixed;
+	padding: 2em 0;
+	width: 100%;	
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 7%;
+	margin:0 3rem;
+
+}
+img{
+	width:100%;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.nav-app-in-up a{
+	padding:1rem 2rem;
+	
+	font-size: 1.3rem;
+}
+nav{
+	margin: 0 4rem;
+}
+.home-heading{
+	font-size: 4rem;
+	font-weight: 900;
+	padding: 1rem 0;
+}
+.home-text{
+	font-size: 1.6rem;
+}
+.home-head{
+	color: #fff;
+	text-align: center;
+}
+.search{
+	
+	width: 40%;
+	margin:2rem  auto;
+	align-items: center;
+	position: relative;
+	background-color: #fff;
+	border-radius: 5px;
+	
+}
+.icon-search{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 3%;
+	top: 0;
+	bottom: 0;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	
+}
+.home-content{
+	padding: 3em 0;
+}
+.search .item-search{
+	padding: 1rem;
+	width: 100%;
+	
+	border:none;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.foot-list{ 
+	padding: 3em 0;
+}
+.col-card>p{
+	margin: .5em 0;
+	
+}
+.col-card h3{
+	margin-top: .5em ;
+	
+}
+.col-card p{
+	color: gray;
+	
+}
+
+.col-card>h2{
+	margin: 1em;
+	
+}
+.col-card{
+	padding: 1em;
+}
+.col:hover .col-card{
+	box-shadow: 0 0 5px rgb(187, 181, 181);
+	
+}
+.row{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 100%;
+}
+@media(min-width:320px){
+	.col{
+		width: 100%;
+	}
+}
+@media(min-width:600px){
+	.col{
+		width: 50%;
+	}
+}
+	
+@media(min-width:1000px){
+	.col{
+		width: 25%;
+	}
+}
+	
+	
+.col{
+	
+	padding: 1em;
+}
+
+img{
+	width: 100%;
+}
+.rating+div{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: .5em 0;
+	margin: .5em 0;
+}
+.offer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.offer-img{
+	width: 4rem;
+
+}
+.rating>p{
+	
+	padding: .5em;
+}
+.rating p >span{
+	margin-left: .5em;
+}
+.rating{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	font-size: small;
+}
+button{
+	padding: .5em 1em;
+	background-color: #48c479;
+	color: aliceblue;
+	border: none;
+}
+.items{
+	
+	display: flex;
+	justify-content: center;
+	color: gray;
+	align-items: baseline;
+}
+.text{
+	text-align: center;
+	border: none;
+	width:10%;
+	font-size: large;
+}
+.container{
+	display: flex;
+}
